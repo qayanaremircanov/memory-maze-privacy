@@ -57,13 +57,19 @@
         a:hover {
             text-decoration: underline;
         }
+        .highlight {
+            background-color: #fff9e6;
+            padding: 15px;
+            border-left: 4px solid #ffc107;
+            margin: 15px 0;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Privacy Policy for Memory Maze</h1>
-        <p class="update-date"><strong>Effective Date:</strong> January 17, 2026</p>
-        <p class="update-date"><strong>Last Updated:</strong> January 17, 2026</p>
+        <p class="update-date"><strong>Effective Date:</strong> January 18, 2026</p>
+        <p class="update-date"><strong>Last Updated:</strong> January 18, 2026</p>
 
         <p>MindFlash Games ("we," "us," or "our") operates the Memory Maze mobile application (the "Game"). This Privacy Policy explains how we collect, use, and protect your information when you use our Game.</p>
 
@@ -74,10 +80,11 @@
         <h3>1.1 Automatically Collected Information</h3>
         <p>When you play Memory Maze, we automatically collect certain information through third-party services:</p>
         <ul>
-            <li><strong>Device Information:</strong> Device type, operating system, unique device identifiers</li>
+            <li><strong>Device Information:</strong> Device type, operating system version, unique device identifiers</li>
             <li><strong>Advertising ID:</strong> Used by AdMob to show relevant ads</li>
-            <li><strong>Game Usage:</strong> How you interact with the Game (for advertising purposes)</li>
-            <li><strong>Approximate Location:</strong> Based on IP address (for regional ad targeting)</li>
+            <li><strong>Game Usage Data:</strong> How you interact with the Game, including gameplay statistics, session duration, and feature usage</li>
+            <li><strong>Approximate Location:</strong> Based on IP address (for regional ad targeting and analytics)</li>
+            <li><strong>App Performance Data:</strong> Crash reports, error logs, and performance metrics</li>
         </ul>
 
         <h3>1.2 Information You Provide</h3>
@@ -94,7 +101,9 @@
         <ul>
             <li>Provide and maintain the Game functionality</li>
             <li>Display advertisements through Google AdMob</li>
-            <li>Improve the Game experience</li>
+            <li>Analyze game performance and user engagement through Firebase Analytics</li>
+            <li>Improve the Game experience and fix bugs</li>
+            <li>Understand how players use the Game to enhance features</li>
             <li>Comply with legal obligations</li>
         </ul>
 
@@ -115,55 +124,157 @@
             <li><a href="https://support.google.com/admob/answer/6128543" target="_blank">Google AdMob Privacy Information</a></li>
         </ul>
 
-        <h2>4. Children's Privacy</h2>
+        <h3>3.2 Firebase Analytics</h3>
+        <div class="highlight">
+            <p><strong>NEW:</strong> We use Google Firebase Analytics to understand how players use Memory Maze and to improve the Game experience.</p>
+        </div>
+        
+        <p><strong>What Firebase Analytics Collects:</strong></p>
+        <ul>
+            <li><strong>Device Information:</strong> Device model, screen size, operating system version</li>
+            <li><strong>App Usage:</strong> Which features you use, how long you play, levels completed</li>
+            <li><strong>Performance Data:</strong> App crashes, errors, and loading times</li>
+            <li><strong>General Location:</strong> Country and city level (not precise location)</li>
+            <li><strong>User Properties:</strong> Anonymous identifiers to understand user behavior patterns</li>
+        </ul>
+
+        <p><strong>What Firebase Analytics Does NOT Collect:</strong></p>
+        <ul>
+            <li>Your name, email, or any personal identification</li>
+            <li>Precise GPS location</li>
+            <li>Contacts, photos, or other sensitive data</li>
+        </ul>
+
+        <p><strong>How We Use Analytics Data:</strong></p>
+        <ul>
+            <li>Understand which game features are most popular</li>
+            <li>Identify and fix crashes or bugs</li>
+            <li>Improve game balance and difficulty levels</li>
+            <li>Make data-driven decisions about new features</li>
+        </ul>
+
+        <p>Firebase Analytics data is processed by Google and may be transferred internationally. For more information:</p>
+        <ul>
+            <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Information</a></li>
+            <li><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+        </ul>
+
+        <h2>4. Permissions</h2>
+        <p>Memory Maze requires the following permissions:</p>
+        <ul>
+            <li><strong>Internet Access:</strong> Required to display ads and send analytics data</li>
+            <li><strong>Network State:</strong> To check if you're connected to the internet</li>
+            <li><strong>Ad ID:</strong> To show relevant advertisements through AdMob</li>
+        </ul>
+        <p>We do NOT request access to:</p>
+        <ul>
+            <li>Camera or microphone</li>
+            <li>Contacts or calendar</li>
+            <li>Photos or media files</li>
+            <li>Location services (GPS)</li>
+            <li>Phone calls or SMS</li>
+        </ul>
+
+        <h2>5. Children's Privacy</h2>
         <p>Memory Maze may be played by children. We are committed to protecting children's privacy and comply with applicable laws, including the Children's Online Privacy Protection Act (COPPA) and General Data Protection Regulation (GDPR).</p>
         
         <p><strong>Important:</strong> We do not knowingly collect personal information from children. The Game:</p>
         <ul>
             <li>Does not require registration or personal information</li>
             <li>Does not have social features or chat functionality</li>
-            <li>Only collects anonymous, non-personal data through AdMob</li>
+            <li>Only collects anonymous, non-personal data through AdMob and Firebase Analytics</li>
+            <li>Does not contain links to external websites (except in this privacy policy)</li>
         </ul>
 
-        <p>Parents and guardians can control ad personalization for children through their device settings.</p>
-
-        <h2>5. Data Security</h2>
-        <p>We take the security of your information seriously. However, please note that:</p>
+        <p>Parents and guardians can:</p>
         <ul>
-            <li>No method of electronic transmission or storage is 100% secure</li>
-            <li>We use commercially acceptable means to protect your data</li>
-            <li>Your game data is stored locally on your device</li>
+            <li>Control ad personalization through device settings</li>
+            <li>Delete all app data by uninstalling the Game</li>
+            <li>Contact us with any privacy concerns at memorymaze2026@gmail.com</li>
         </ul>
 
-        <h2>6. Your Rights and Choices</h2>
+        <h2>6. Data Security</h2>
+        <p>We take the security of your information seriously:</p>
+        <ul>
+            <li>All data transmission is encrypted using industry-standard protocols</li>
+            <li>We use secure third-party services (Google Firebase, AdMob) with strong security practices</li>
+            <li>Your game data is stored locally on your device</li>
+            <li>We do not store any personal information on our servers</li>
+        </ul>
+        <p>However, please note that no method of electronic transmission or storage is 100% secure.</p>
+
+        <h2>7. Data Retention</h2>
+        <p><strong>Local Data:</strong> Game progress and scores are stored on your device until you uninstall the app or clear app data.</p>
+        <p><strong>Analytics Data:</strong> Firebase Analytics retains data for up to 14 months. After this period, aggregated data may be retained indefinitely for statistical purposes.</p>
+        <p><strong>Advertising Data:</strong> AdMob retains data according to Google's data retention policies.</p>
+
+        <h2>8. Your Rights and Choices</h2>
         
-        <h3>6.1 Opting Out of Personalized Ads</h3>
+        <h3>8.1 Opting Out of Personalized Ads</h3>
         <p>You can opt out of personalized advertising:</p>
         <ul>
             <li><strong>Android:</strong> Settings → Google → Ads → Opt out of Ads Personalization</li>
-            <li><strong>iOS:</strong> Settings → Privacy → Advertising → Limit Ad Tracking</li>
+            <li><strong>iOS:</strong> Settings → Privacy & Security → Tracking → Toggle off "Allow Apps to Request to Track"</li>
         </ul>
 
-        <h3>6.2 Data Deletion</h3>
-        <p>Since we do not collect or store your personal data on our servers, you can delete all game data by uninstalling the app from your device.</p>
+        <h3>8.2 Opting Out of Analytics</h3>
+        <p>While you cannot completely disable Firebase Analytics within the app, you can:</p>
+        <ul>
+            <li>Disable ad personalization (which limits some data collection)</li>
+            <li>Use your device's "Limit Ad Tracking" or similar feature</li>
+            <li>Contact us to request data deletion</li>
+        </ul>
 
-        <h2>7. Changes to This Privacy Policy</h2>
+        <h3>8.3 Data Deletion</h3>
+        <p>To delete all your data:</p>
+        <ul>
+            <li><strong>Local Data:</strong> Uninstall the app or clear app data through device settings</li>
+            <li><strong>Analytics Data:</strong> Contact us at memorymaze2026@gmail.com to request deletion of analytics data associated with your device</li>
+        </ul>
+
+        <h3>8.4 Your Rights Under GDPR (EU Users)</h3>
+        <p>If you are in the European Union, you have the right to:</p>
+        <ul>
+            <li>Access your data</li>
+            <li>Correct inaccurate data</li>
+            <li>Request deletion of your data</li>
+            <li>Object to data processing</li>
+            <li>Request data portability</li>
+            <li>Withdraw consent at any time</li>
+        </ul>
+        <p>To exercise these rights, contact us at memorymaze2026@gmail.com</p>
+
+        <h2>9. Changes to This Privacy Policy</h2>
         <p>We may update this Privacy Policy from time to time. We will notify you of any changes by:</p>
         <ul>
             <li>Posting the new Privacy Policy on this page</li>
             <li>Updating the "Last Updated" date</li>
+            <li>Displaying a notice in the Game (for significant changes)</li>
         </ul>
-        <p>You are advised to review this Privacy Policy periodically for any changes.</p>
+        <p>You are advised to review this Privacy Policy periodically for any changes. Continued use of the Game after changes constitutes acceptance of the updated policy.</p>
 
-        <h2>8. International Data Transfers</h2>
-        <p>Your information may be transferred to and processed in countries other than your own. AdMob, operated by Google, may transfer data internationally as described in their privacy policy.</p>
+        <h2>10. International Data Transfers</h2>
+        <p>Your information may be transferred to and processed in countries other than your own, including the United States where Google's servers are located. These countries may have different data protection laws than your country.</p>
+        <p>By using Memory Maze, you consent to the transfer of your information to these countries. Google (Firebase and AdMob) complies with applicable data protection frameworks and regulations.</p>
 
-        <h2>9. Contact Us</h2>
+        <h2>11. California Privacy Rights (CCPA)</h2>
+        <p>If you are a California resident, you have specific rights regarding your personal information:</p>
+        <ul>
+            <li>Right to know what personal information is collected</li>
+            <li>Right to know if personal information is sold or disclosed</li>
+            <li>Right to opt-out of the sale of personal information</li>
+            <li>Right to deletion of personal information</li>
+            <li>Right to non-discrimination for exercising your rights</li>
+        </ul>
+        <p><strong>Note:</strong> We do not sell your personal information.</p>
+
+        <h2>12. Contact Us</h2>
         <div class="contact">
-            <p>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us:</p>
+            <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:</p>
             <p><strong>Developer:</strong> MindFlash Games</p>
             <p><strong>Email:</strong> <a href="mailto:memorymaze2026@gmail.com">memorymaze2026@gmail.com</a></p>
             <p><strong>Game:</strong> Memory Maze</p>
+            <p><strong>Response Time:</strong> We aim to respond to all inquiries within 48 hours.</p>
         </div>
 
         <hr style="margin-top: 30px; border: none; border-top: 1px solid #ddd;">
